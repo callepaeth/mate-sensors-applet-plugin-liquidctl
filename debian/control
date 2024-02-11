@@ -1,0 +1,22 @@
+Source: mate-sensors-applet-plugin-liquidctl
+Section: x11
+Priority: optional
+Maintainer: Carsten Paeth <calle@calle.in-berlin.de>
+Build-Depends: debhelper-compat (= 13),
+               libglib2.0-dev,
+	       libmate-sensors-applet-plugin-dev,
+               libtool,
+               yelp-tools,
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: mate-sensors-applet-plugin-liquidctl
+Architecture: any
+Depends: libmate-sensors-applet-plugin0 (>= 1.26.0),
+         mate-sensors-applet-common (>= 1.26.0),
+	 liquidctl (>= 1.5.1),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: MATE Sensors Applet Plugin to readings from hardware sensors,
+  with liquidctl.
+
