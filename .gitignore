@@ -2,15 +2,7 @@ INSTALL
 Makefile
 Makefile.in
 aclocal.m4
-autom4te.cache/output.0
-autom4te.cache/output.1
-autom4te.cache/output.2
-autom4te.cache/output.3
-autom4te.cache/requests
-autom4te.cache/traces.0
-autom4te.cache/traces.1
-autom4te.cache/traces.2
-autom4te.cache/traces.3
+autom4te.cache
 compile
 config.guess
 config.h
@@ -19,6 +11,8 @@ config.log
 config.status
 config.sub
 configure
+config.h.in~
+configure~
 debian/.debhelper
 debian/autoreconf.after
 debian/autoreconf.before
@@ -32,8 +26,10 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 missing
+omf.make
 plugins/Makefile
 plugins/Makefile.in
+plugins/liquidctl/.deps
 plugins/liquidctl/.libs
 plugins/liquidctl/Makefile
 plugins/liquidctl/Makefile.in
@@ -44,3 +40,4 @@ plugins/liquidctl/testlibliquidctl
 plugins/liquidctl/testlibliquidctl-liquidctl-plugin.o
 plugins/liquidctl/testlibliquidctl-testlibliquidctl.o
 stamp-h1
+xmldocs.make
